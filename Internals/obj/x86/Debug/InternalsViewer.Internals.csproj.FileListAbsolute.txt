@@ -1,0 +1,7 @@
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\bin\x86\Debug\InternalsViewer.Internals.dll
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\bin\x86\Debug\InternalsViewer.Internals.pdb
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.Properties.Resources.resources
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.csproj.GenerateResource.cache
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.csproj.CoreCompileInputs.cache
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.dll
+C:\MSSQL\Git-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.pdb
