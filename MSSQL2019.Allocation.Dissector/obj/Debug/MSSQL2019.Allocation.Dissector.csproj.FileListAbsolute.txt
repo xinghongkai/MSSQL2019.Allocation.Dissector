@@ -1,9 +1,0 @@
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.csproj.AssemblyReference.cache
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.exe.config
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.DecodeForm.resources
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.Form1.resources
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.PageViewerForm.resources
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.Properties.Resources.resources
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.TransactionLogViewerForm.resources
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.csproj.GenerateResource.cache
-C:\MSSQL\Git\MSSQL2019.Allocation.Dissector\obj\Debug\MSSQL2019.Allocation.Dissector.csproj.CoreCompileInputs.cache
