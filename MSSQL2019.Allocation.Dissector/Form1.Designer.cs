@@ -33,7 +33,6 @@ namespace MSSQL2019.Allocation.Dissector
             this.日志跟踪ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.日志跟踪ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.allocationWindow1 = new InternalsViewer.UI.AllocationWindow();
-            this.解码ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,8 +49,7 @@ namespace MSSQL2019.Allocation.Dissector
             // 日志跟踪ToolStripMenuItem
             // 
             this.日志跟踪ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.日志跟踪ToolStripMenuItem1,
-            this.解码ToolStripMenuItem});
+            this.日志跟踪ToolStripMenuItem1});
             this.日志跟踪ToolStripMenuItem.Name = "日志跟踪ToolStripMenuItem";
             this.日志跟踪ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.日志跟踪ToolStripMenuItem.Text = "工具";
@@ -61,6 +59,7 @@ namespace MSSQL2019.Allocation.Dissector
             this.日志跟踪ToolStripMenuItem1.Name = "日志跟踪ToolStripMenuItem1";
             this.日志跟踪ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.日志跟踪ToolStripMenuItem1.Text = "日志跟踪";
+            this.日志跟踪ToolStripMenuItem1.ToolTipText = "切换数据库后，执行修改操作，该功能可以查看操作对应的事务日志";
             this.日志跟踪ToolStripMenuItem1.Click += new System.EventHandler(this.OnLogMonitor);
             // 
             // allocationWindow1
@@ -71,13 +70,6 @@ namespace MSSQL2019.Allocation.Dissector
             this.allocationWindow1.Name = "allocationWindow1";
             this.allocationWindow1.Size = new System.Drawing.Size(970, 655);
             this.allocationWindow1.TabIndex = 3;
-            // 
-            // 解码ToolStripMenuItem
-            // 
-            this.解码ToolStripMenuItem.Name = "解码ToolStripMenuItem";
-            this.解码ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.解码ToolStripMenuItem.Text = "解码";
-            this.解码ToolStripMenuItem.Click += new System.EventHandler(this.OnDecoode);
             // 
             // Form1
             // 
@@ -102,7 +94,6 @@ namespace MSSQL2019.Allocation.Dissector
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 日志跟踪ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 日志跟踪ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem 解码ToolStripMenuItem;
     }
 }
 

@@ -121,6 +121,11 @@ namespace MSSQL2019.Allocation.Dissector
 
         private void OnLogMonitor(object sender, EventArgs e)
         {
+            if(InternalsViewerConnection.CurrentConnection().CurrentDatabase==null)
+            {
+                MessageBox.Show("Connect MSSQL instance and select a user database");
+                return;
+            }
             TransactionLogViewerForm form = new TransactionLogViewerForm();
             form.Show();
         }
