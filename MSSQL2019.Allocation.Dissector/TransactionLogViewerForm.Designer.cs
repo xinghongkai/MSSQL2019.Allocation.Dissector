@@ -31,7 +31,10 @@ namespace MSSQL2019.Allocation.Dissector
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.Exec = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -46,13 +49,35 @@ namespace MSSQL2019.Allocation.Dissector
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.Exec);
+            this.tabPage1.Controls.Add(this.richTextBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(792, 424);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "QueryEditor";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(786, 418);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "input t-sql statements";
+            this.richTextBox1.Select(0, this.richTextBox1.Text.Length);
+
+            // 
+            // Exec
+            // 
+            this.Exec.Location = new System.Drawing.Point(709, 390);
+            this.Exec.Name = "Exec";
+            this.Exec.Size = new System.Drawing.Size(75, 23);
+            this.Exec.TabIndex = 1;
+            this.Exec.Text = "Exec[F5]";
+            this.Exec.UseVisualStyleBackColor = true;
             // 
             // TransactionLogViewerForm
             // 
@@ -63,6 +88,7 @@ namespace MSSQL2019.Allocation.Dissector
             this.Name = "TransactionLogViewerForm";
             this.Text = "TransactionLogViewerForm";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -71,5 +97,7 @@ namespace MSSQL2019.Allocation.Dissector
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button Exec;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
