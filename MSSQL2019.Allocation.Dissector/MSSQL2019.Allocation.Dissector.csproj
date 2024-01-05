@@ -101,6 +101,10 @@
     <Reference Include="Microsoft.SqlServer.SqlTools.VSIntegration">
       <HintPath>..\Lib\Microsoft.SqlServer.SqlTools.VSIntegration.dll</HintPath>
     </Reference>
+    <Reference Include="SqlWorkbench.Interfaces, Version=15.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\SqlWorkbench.Interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

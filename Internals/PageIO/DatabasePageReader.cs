@@ -66,9 +66,13 @@ namespace InternalsViewer.Internals.PageIO
                             if (reader[0].ToString() == "DATA:" && reader[1].ToString().StartsWith("Memory Dump"))
                             {
                                 currentRow = reader[3].ToString();
-                                currentData = currentRow.Replace(" ", "").Substring(currentRow.IndexOf(":") + 1, 40);
+                                if(offset<8180)
+                                    currentData = currentRow.Replace(" ", "").Substring(currentRow.IndexOf(":") + 1, 40);
+                                else
+                                    currentData = currentRow.Replace(" ", "").Substring(currentRow.IndexOf(":") + 1, 24);
 
-                                for (int i = 0; i < 40; i += 2)
+
+                                for (int i = 0; i < (offset<8180?40:24); i += 2)
                                 {
                                     string byteString = currentData.Substring(i, 2);
 
@@ -80,6 +84,11 @@ namespace InternalsViewer.Internals.PageIO
                                         {
                                             offset++;
                                         }
+                                    }
+                                    else
+                                    {
+                                        int ii = 0;
+                                        ii++;
                                     }
                                 }
                             }
