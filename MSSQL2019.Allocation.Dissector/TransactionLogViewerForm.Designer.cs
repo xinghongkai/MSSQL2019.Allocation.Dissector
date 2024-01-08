@@ -57,7 +57,7 @@ namespace MSSQL2019.Allocation.Dissector
             this.tabPage1.Size = new System.Drawing.Size(792, 424);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "QueryEditor";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.UseVisualStyleBackColor = true; 
             // 
             // richTextBox1
             // 

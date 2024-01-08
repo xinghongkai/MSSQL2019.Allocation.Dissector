@@ -27,7 +27,7 @@ namespace MSSQL2019.Allocation.Dissector
             connectionString = InternalsViewerConnection.CurrentConnection().ConnectionString;
 
             TransactionLogTabPage transactionLogTabPage = new TransactionLogTabPage();
-            Text = $"{database}-{Form1.startLsn}";
+            Text = $"{database}-{Form1.startLsn}"; 
 
             transactionLogTabPage.SetTransactionLogData(LogMonitor.StopMonitoring(database, Form1.startLsn, connectionString));
             this.tabControl1.TabPages.Add(transactionLogTabPage);
