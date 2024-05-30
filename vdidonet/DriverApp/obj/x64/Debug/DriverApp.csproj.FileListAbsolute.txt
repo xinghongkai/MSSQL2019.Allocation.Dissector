@@ -1,0 +1,10 @@
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\obj\x64\Debug\DriverApp.csproj.CoreCompileInputs.cache
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\bin\x64\Debug\DriverApp.exe.config
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\bin\x64\Debug\DriverApp.exe
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\bin\x64\Debug\DriverApp.pdb
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\bin\x64\Debug\VdiDotNet.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\bin\x64\Debug\VdiDotNet.pdb
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\obj\x64\Debug\DriverApp.csproj.CopyComplete
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\obj\x64\Debug\DriverApp.exe
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\obj\x64\Debug\DriverApp.pdb
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\DriverApp\obj\x64\Debug\DriverApp.csproj.AssemblyReference.cache

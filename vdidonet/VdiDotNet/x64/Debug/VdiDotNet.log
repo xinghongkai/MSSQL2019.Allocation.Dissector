@@ -1,0 +1,9 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\VdiDotNet\AssemblyInfo.cpp(40,29): warning C4947: “System::Security::Permissions::SecurityAction::RequestMinimum”: 标记为已过时
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\VdiDotNet\AssemblyInfo.cpp(40,29): message : 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+  VdiDotNet.cpp
+  正在生成代码...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  AssemblyInfo.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+  VdiDotNet.vcxproj -> C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\x64\Debug\VdiDotNet.dll

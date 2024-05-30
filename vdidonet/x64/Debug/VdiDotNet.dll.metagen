@@ -1,0 +1,42 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly VdiDotNet, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class VdiDotNet.InfoMessageEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String Message 'get ' : 
+  Methods:
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class VdiDotNet.CommandIssuedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String Command 'get ' : 
+  Methods:
+    get_Command(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class VdiDotNet.VdiEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    System.EventHandler`1[VdiDotNet.CommandIssuedEventArgs] CommandIssued: SpecialName
+    System.EventHandler`1[VdiDotNet.InfoMessageEventArgs] InfoMessageReceived: SpecialName
+  Methods:
+    add_InfoMessageReceived(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_InfoMessageReceived(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_CommandIssued(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_CommandIssued(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    ExecuteCommand(String, String, Stream): PrivateScope, Public, HideBySig

@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: 正在首次将属性“IntermediateOutputPath”设置为某个值，但已在“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)”处使用了该属性。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: 正在首次将属性“DebugType”设置为某个值，但已在“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)”处使用了该属性。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: 正在首次将属性“CleanFile”设置为某个值，但已在“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)”处使用了该属性。
+  Stdafx.cpp
+  AssemblyInfo.cpp
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\VdiDotNet\AssemblyInfo.cpp(40,29): warning C4947: “System::Security::Permissions::SecurityAction::RequestMinimum”: 标记为已过时
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\VdiDotNet\AssemblyInfo.cpp(40,29): message : 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+  VdiDotNet.cpp
+C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\VdiDotNet\VdiDotNet.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  VdiDotNet.vcxproj -> C:\GitHub-MSSQL2019.Allocation.Dissector\vdidonet\Release\VdiDotNet.dll

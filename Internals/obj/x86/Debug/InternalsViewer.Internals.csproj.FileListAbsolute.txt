@@ -12,4 +12,3 @@ C:\GitHub-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer
 C:\GitHub-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.csproj.CoreCompileInputs.cache
 C:\GitHub-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.dll
 C:\GitHub-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.pdb
-C:\GitHub-MSSQL2019.Allocation.Dissector\Internals\obj\x86\Debug\InternalsViewer.Internals.csproj.AssemblyReference.cache
