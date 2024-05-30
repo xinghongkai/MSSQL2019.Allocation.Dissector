@@ -196,9 +196,12 @@ namespace InternalsViewer.UI.Allocations
         /// Draws the extents for each allocation layer
         /// </summary>
         /// <param name="e">The <see cref="System.Windows.Forms.PaintEventArgs"/> instance containing the event data.</param>
+        Dictionary<int, int> _dicpageCnt = new Dictionary<int, int>(); 
         private void DrawExtents(PaintEventArgs e)
         {
             this.pageExtentRenderer.ResizeExtentBrush(this.ExtentSize);
+            bool bupdated = false;
+
 
             for (int extent = this.windowPosition;
                  extent < this.extentCount && extent < (this.visibleExtents + this.windowPosition);
@@ -206,6 +209,14 @@ namespace InternalsViewer.UI.Allocations
             {
                 foreach (AllocationLayer layer in this.mapLayers)
                 {
+                    int i = 0;
+                    if (layer.ObjectName != "dbo.SystemEventLog")
+                    {
+                        // 测试代码，用于测试dbcc中SystemEventLog中的分配异常提示
+                        continue;
+                        i++ ;
+                    }
+
                     if (layer.Visible && !layer.SingleSlotsOnly)
                     {
                         foreach (Allocation chain in layer.Allocations)
@@ -218,11 +229,41 @@ namespace InternalsViewer.UI.Allocations
                                                                              ExtentColour.BackgroundColour(layer.Colour));
 
                                 this.pageExtentRenderer.DrawExtent(e.Graphics, this.ExtentPosition(extent - this.WindowPosition));
+
+                                if (layer.ObjectName == "dbo.SystemEventLog")
+                                {
+                                    for (int ij=0;ij<8;ij++)
+                                    {
+                                        int pageid;
+                                        if(!_dicpageCnt.TryGetValue(targetExtent + ij, out pageid))
+                                        {
+                                            Page systeventlogpage = new Page(InternalsViewerConnection.CurrentConnection().CurrentDatabase.ConnectionString,
+                                            InternalsViewerConnection.CurrentConnection().CurrentDatabase.Name, new PageAddress(1, targetExtent + ij));
+                                            if(systeventlogpage.Header.PageType==PageType.Data)
+                                            {
+                                                _dicpageCnt.Add(systeventlogpage.PageAddress.PageId, systeventlogpage.OffsetTable.Count);
+                                                bupdated = true;
+                                            }
+                                        }
+                                    }
+                                }
+
                             }
                         }
                     }
                 }
             }
+
+            if((bupdated))
+            {
+                int totalcnt = 0;
+                foreach(var v in _dicpageCnt)
+                {
+                    totalcnt += v.Value;
+                }
+                System.Console.WriteLine(totalcnt);
+            }
+
         }
 
         /// <summary>

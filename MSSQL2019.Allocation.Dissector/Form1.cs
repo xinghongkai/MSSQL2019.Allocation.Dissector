@@ -30,6 +30,7 @@ namespace MSSQL2019.Allocation.Dissector
             allocationWindow1.Connect += AllocationWindow1_Connect;
             this.allocationWindow1.ViewPage += new EventHandler<PageEventArgs>(AllocationWindowControl_ViewPage);
             this.allocationWindow1.DataBaseSelected += AllocationWindow1_DataBaseSelected;
+            Process.GetCurrentProcess().ProcessorAffinity = (IntPtr)2;
         }
 
         private void AllocationWindow1_DataBaseSelected(object sender, DataBaseEventArgs e)

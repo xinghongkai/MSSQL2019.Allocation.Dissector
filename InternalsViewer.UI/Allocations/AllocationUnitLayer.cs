@@ -65,6 +65,9 @@ namespace InternalsViewer.UI.Allocations
                 {
                     if (separateIndexes && !string.IsNullOrEmpty(row["index_name"].ToString()))
                     {
+                        int i = 0;
+                        if (row["index_name"].ToString() == "ICX_EventTime")
+                            i++;
 
                         currentObjectName = row["schema_name"] + "." + row["table_name"] + "." + row["index_name"];
                     }

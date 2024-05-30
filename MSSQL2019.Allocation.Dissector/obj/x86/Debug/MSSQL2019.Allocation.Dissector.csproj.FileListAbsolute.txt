@@ -74,7 +74,6 @@ C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.Practices.Unity.xml
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.csproj.AssemblyReference.cache
-C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.exe.config
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.DecodeForm.resources
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.Form1.resources
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.PageViewerForm.resources
@@ -86,3 +85,12 @@ C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.exe
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.pdb
 C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\SqlWorkbench.Interfaces.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\MSSQL2019.Allocation.Dissector.exe.manifest
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\MSSQL2019.Allocation.Dissector.application
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.exe.manifest
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\obj\x86\Debug\MSSQL2019.Allocation.Dissector.application
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.SqlServer.ConnectionInfo.Resources.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\GitHub-MSSQL2019.Allocation.Dissector\MSSQL2019.Allocation.Dissector\bin\x86\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.resources.dll
